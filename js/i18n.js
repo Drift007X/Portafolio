@@ -55,6 +55,8 @@
 
     // Portafolio
     'Mis trabajos': 'My work',
+    'Variantes': 'Variants',
+    'Original': 'Original',
     'Trabajos': 'Works',
     'Categorías': 'Categories',
     'Resumen': 'Summary',
@@ -155,6 +157,8 @@
   var PATTERNS = [
     [/^(\d+) trabajos?$/, function (m) { return m[1] + (m[1] === '1' ? ' work' : ' works'); }],
     [/^\+(\d+) más$/, function (m) { return '+' + m[1] + ' more'; }],
+    [/^(\d+) variantes?$/, function (m) { return m[1] + (m[1] === '1' ? ' variant' : ' variants'); }],
+    [/^Variante (\d+)$/, function (m) { return 'Variant ' + m[1]; }],
     [/^Desde (\d{4})(.*)$/, function (m) { return 'Since ' + m[1] + m[2]; }],
     [/^(.+): próximamente$/, function (m) { return tr(m[1]) + ': coming soon'; }],
     [/^Abrir (.+)$/, function (m) { return 'Open ' + m[1]; }],

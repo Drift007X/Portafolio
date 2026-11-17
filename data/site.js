@@ -763,25 +763,13 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/velvet_2026.png",
-      "url": ""
-    },
-    {
-      "titulo": "Velvet (Traje Heroe)",
-      "categoria": "Skins",
-      "anio": 2026,
-      "persona": "TearsFromV",
-      "fecha": "",
-      "redesPersona": [
+      "url": "",
+      "variantes": [
         {
-          "nombre": "Twitter",
-          "url": "https://x.com/TearsFromV"
+          "nombre": "Heroe",
+          "skin": "assets/skins/velvet_heroe_2026.png"
         }
-      ],
-      "skin": "assets/skins/velvet-traje-heroe_2026.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/velvet-traje-heroe_2026.png",
-      "url": ""
+      ]
     },
     {
       "titulo": "Lukah (Pijama)",
@@ -799,24 +787,6 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/lukah-pijama_2026.png",
-      "url": ""
-    },
-    {
-      "titulo": "Lukah (Futbol)",
-      "categoria": "Skins",
-      "anio": 2026,
-      "persona": "Lukah201",
-      "fecha": "2026-06-09",
-      "redesPersona": [
-        {
-          "nombre": "Twitter",
-          "url": "https://x.com/lukah201"
-        }
-      ],
-      "skin": "assets/skins/lukah-futbol_2026.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/lukah-futbol_2026.png",
       "url": ""
     },
     {
@@ -849,29 +819,25 @@ window.SITE = {
           "url": "https://x.com/lukah201"
         }
       ],
-      "skin": "assets/skins/lukah_2026.png",
+      "skin": "assets/skins/lukah_2026-2.png",
       "destacado": false,
       "descripcion": "",
-      "descarga": "assets/skins/lukah_2026.png",
-      "url": ""
-    },
-    {
-      "titulo": "Lukah Dark",
-      "categoria": "Skins",
-      "anio": 2026,
-      "persona": "Lukah201",
-      "fecha": "2026-06-28",
-      "redesPersona": [
+      "descarga": "assets/skins/lukah_2026-2.png",
+      "url": "",
+      "variantes": [
         {
-          "nombre": "Twitter",
-          "url": "https://x.com/lukah201"
+          "nombre": "Variante 1",
+          "skin": "assets/skins/lukah_variante-1_2026.png"
+        },
+        {
+          "nombre": "Dark",
+          "skin": "assets/skins/lukah_dark_2026.png"
+        },
+        {
+          "nombre": "Futbol",
+          "skin": "assets/skins/lukah_futbol_2026.png"
         }
-      ],
-      "skin": "assets/skins/lukah-dark_2026.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/lukah-dark_2026.png",
-      "url": ""
+      ]
     },
     {
       "titulo": "Black",
@@ -943,7 +909,13 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/meliin_2026.png",
-      "url": ""
+      "url": "",
+      "variantes": [
+        {
+          "nombre": "Variante 1",
+          "skin": "assets/skins/meliin_variante-1_2026.png"
+        }
+      ]
     },
     {
       "titulo": "Meliin (Pijama)",
@@ -1153,24 +1125,6 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "ElColorado (Wither Storm)",
-      "categoria": "Skins",
-      "anio": 2026,
-      "persona": "ElColoradoFacha",
-      "fecha": "2026-09-06",
-      "redesPersona": [
-        {
-          "nombre": "Youtube",
-          "url": "https://www.youtube.com/@elcoloradofacha"
-        }
-      ],
-      "skin": "assets/skins/elcolorado-wither-storm_2026.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/elcolorado-wither-storm_2026.png",
-      "url": ""
-    },
-    {
       "titulo": "ElColorado",
       "categoria": "Skins",
       "anio": 2026,
@@ -1186,7 +1140,13 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/elcoloradofacha_2026.png",
-      "url": ""
+      "url": "",
+      "variantes": [
+        {
+          "nombre": "Whiter Storm",
+          "skin": "assets/skins/elcolorado_whiter-storm_2026.png"
+        }
+      ]
     },
     {
       "titulo": "R.A.I.N",
@@ -1420,24 +1380,6 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Oez (RP) Variante 2",
-      "categoria": "Skins",
-      "anio": 2025,
-      "persona": "Oez",
-      "fecha": "2025-12-16",
-      "redesPersona": [
-        {
-          "nombre": "Twitter",
-          "url": "https://x.com/4nsk3r_"
-        }
-      ],
-      "skin": "assets/skins/oez-rp-variante-2_2025.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/oez-rp-variante-2_2025.png",
-      "url": ""
-    },
-    {
       "titulo": "Oez (RP)",
       "categoria": "Skins",
       "anio": 2025,
@@ -1449,11 +1391,17 @@ window.SITE = {
           "url": "https://x.com/4nsk3r_"
         }
       ],
-      "skin": "assets/skins/oez-rp_2025.png",
+      "skin": "assets/skins/oez-rp_2025-2.png",
       "destacado": false,
       "descripcion": "",
-      "descarga": "assets/skins/oez-rp_2025.png",
-      "url": ""
+      "descarga": "assets/skins/oez-rp_2025-2.png",
+      "url": "",
+      "variantes": [
+        {
+          "nombre": "Variante 1",
+          "skin": "assets/skins/oez-rp_variante-1_2025.png"
+        }
+      ]
     },
     {
       "titulo": "Erik",
@@ -1801,19 +1749,6 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Dave (Nucle v2)",
-      "categoria": "Skins",
-      "anio": 2024,
-      "persona": "Drift007_",
-      "fecha": "",
-      "redesPersona": [],
-      "skin": "assets/skins/dave-nucle_2024.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/dave-nucle_2024.png",
-      "url": ""
-    },
-    {
       "titulo": "Dave (Nucle)",
       "categoria": "Skins",
       "anio": 2024,
@@ -1824,7 +1759,13 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/dave-nucle_2024-2.png",
-      "url": ""
+      "url": "",
+      "variantes": [
+        {
+          "nombre": "Traje",
+          "skin": "assets/skins/dave-nucle_traje_2024.png"
+        }
+      ]
     },
     {
       "titulo": "Vanille",

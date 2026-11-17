@@ -442,6 +442,16 @@ a.gitem:hover { transform: translateY(-4px); }
 .lb-chip:hover { background: var(--bg-500); color: var(--ink-100); }
 .lb-chip[aria-pressed="true"] { background: var(--accent); color: #fff; }
 .lb-chip:focus-visible { outline: 2px solid var(--pulse); outline-offset: 3px; }
+/* Variantes de skin */
+.lb-vars { position: absolute; top: 16px; left: 16px; right: 16px; display: flex; flex-wrap: wrap; gap: 6px; z-index: 2; }
+.lb-var { border: 0; cursor: pointer; height: 40px; padding: 0 14px 0 8px; display: inline-flex; align-items: center; gap: 10px; background: rgba(20,21,25,.9); color: var(--ink-200); transform: skew(-10deg); transition: background 100ms, color 100ms; }
+.lb-var > * { transform: skew(10deg); }
+.lb-var canvas { width: 24px; height: 24px; image-rendering: pixelated; background: var(--bg-000); flex: none; }
+.lb-var span { font-family: 'Barlow Condensed', "Barlow Cond Fallback", "Arial Narrow", sans-serif; font-weight: 800; font-style: italic; text-transform: uppercase; font-size: 16px; white-space: nowrap; }
+.lb-var:hover { background: var(--bg-500); color: var(--ink-100); }
+.lb-var[aria-pressed="true"] { background: var(--accent); color: #fff; }
+.lb-var:focus-visible { outline: 2px solid var(--pulse); outline-offset: 3px; }
+.pfi-vars { position: absolute; top: 16px; left: 64px; background: var(--bg-400); color: var(--ink-100); padding: 4px 10px; transform: skew(-10deg); z-index: 1; }
 .lb-info { display: flex; flex-direction: column; gap: 14px; padding: 40px 32px 28px; }
 .lb-cat { color: var(--accent-ink); }
 .lb-head { display: flex; align-items: center; gap: 16px; }

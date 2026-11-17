@@ -202,6 +202,10 @@
       return libPromise;
     }
     function skinSrc(p) { return (window.SKIN_DATA && window.SKIN_DATA[p]) || p; }
+    function skinList(t) {
+      var v = (t.variantes || []).filter(function (x) { return x && x.skin; });
+      return v.length ? [{ nombre: t.varianteBase || 'Original', skin: t.skin }].concat(v) : null;
+    }
     function dpr(max) { return Math.min(window.devicePixelRatio || 1, max); }
 
     function pose(v) {
@@ -383,6 +387,8 @@
           card.classList.add('pfi--3d', 'is-loading');
           var box = card.querySelector('.pfi-img');
           box.insertAdjacentHTML('beforeend', '<span class="mono pfi-3d">3D</span>');
+          var nv = skinList(t);
+          if (nv) box.insertAdjacentHTML('beforeend', '<span class="mono pfi-vars">' + nv.length + ' variantes</span>');
           (function (img, cardEl, item) {
             ready3d.then(function (ok) { return ok ? snapshot(item.skin) : null; }).then(function (url) {
               if (url) { img.src = url; }
@@ -414,6 +420,38 @@
     var lb = q('[data-lb]'), lbIdx = 0, lbViewer = null;
     var lbCanvas = q('[data-lb-canvas]'), lbUi = q('[data-lb-skin-ui]'), lbImg = q('[data-lb-img]');
     function disposeLb() { if (lbViewer) { lbViewer.dispose(); lbViewer = null; } }
+
+    // Variantes de una skin (la principal + las que tenga en "variantes")
+    var lbVars = q('[data-lb-vars]'), lbDl = null;
+    function faceIcon(src, cv) {
+      var im = new Image();
+      im.onload = function () {
+        var x = cv.getContext('2d'); x.imageSmoothingEnabled = false; x.clearRect(0, 0, 8, 8);
+        x.drawImage(im, 8, 8, 8, 8, 0, 0, 8, 8); x.drawImage(im, 40, 8, 8, 8, 0, 0, 8, 8);
+      };
+      im.src = src;
+    }
+    function renderVars(t) {
+      var list = t.categoria === 'Skins' ? skinList(t) : null;
+      lbVars.innerHTML = ''; lbVars.hidden = !list;
+      if (!list) return;
+      list.forEach(function (v, i) {
+        var b = document.createElement('button');
+        b.type = 'button'; b.className = 'lb-var'; b.setAttribute('aria-pressed', String(i === 0));
+        b.innerHTML = '<canvas width="8" height="8" aria-hidden="true"></canvas><span></span>';
+        b.querySelector('span').textContent = v.nombre || ('Variante ' + i);
+        faceIcon(skinSrc(v.skin), b.querySelector('canvas'));
+        b.addEventListener('click', function () { pickVar(list, i); });
+        lbVars.appendChild(b);
+      });
+    }
+    function pickVar(list, i) {
+      var v = list[i];
+      lbVars.querySelectorAll('.lb-var').forEach(function (b, k) { b.setAttribute('aria-pressed', String(k === i)); });
+      if (lbViewer) { var V = lbViewer.v; Promise.resolve(V.loadSkin(skinSrc(v.skin))).then(function () { V.render(); }); }
+      else lbImg.src = skinSrc(v.skin);
+      if (lbDl) lbDl.href = v.skin;
+    }
     function setAnim(name) {
       if (!lbViewer) return;
       var V = lbViewer.v;
@@ -454,6 +492,8 @@
         r.appendChild(l); r.appendChild(node); meta.appendChild(r);
       }
       if (t.persona) { var n = document.createElement('span'); n.className = 'lb-info-val'; n.textContent = t.persona; row('Persona', n); }
+      var vl = skinList(t);
+      if (vl) { var vv = document.createElement('span'); vv.className = 'lb-info-val'; vv.textContent = vl.length + ' variantes'; row('Variantes', vv); }
       var fl = fechaLinda(t);
       if (fl) { var d = document.createElement('span'); d.className = 'lb-info-val'; d.textContent = fl; row('Creación', d); }
       var redes = (t.redesPersona || []).filter(function (r) { return r && r.url; });
@@ -474,6 +514,8 @@
       var t = visibles[lbIdx];
       if (!t) return;
       disposeLb();
+      lbDl = null;
+      renderVars(t);
       var sk = t.categoria === 'Skins' && t.skin && has3d;
       lbImg.hidden = sk; lbCanvas.hidden = !sk; lbUi.hidden = !sk;
       if (sk) {
@@ -544,6 +586,7 @@
           ? '<span><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M6 9l6 6 6-6M4 21h16"/></svg>Descargar skin</span>'
           : '<span>Descargar</span>';
         acts.appendChild(a1);
+        if (t.categoria === 'Skins') lbDl = a1;
       }
       if (t.url) {
         var a2 = document.createElement('a'); a2.className = 'btn'; a2.href = t.url; a2.target = '_blank'; a2.rel = 'noopener';
