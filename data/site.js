@@ -951,7 +951,17 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/meliin-heroe_2026.png",
-      "url": ""
+      "url": "",
+      "variantes": [
+        {
+          "nombre": "Uniforme",
+          "skin": "assets/skins/meliin-heroe_uniforme_2026.png"
+        },
+        {
+          "nombre": "Casual",
+          "skin": "assets/skins/meliin-heroe_casual_2026.png"
+        }
+      ]
     },
     {
       "titulo": "Mortexia",
@@ -1016,6 +1026,24 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/fuanfe_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Meliin (Fungi)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Meliinlive",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Meliinlive"
+        }
+      ],
+      "skin": "assets/skins/meliin-fungi_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/meliin-fungi_2026.png",
       "url": ""
     },
     {
@@ -1251,37 +1279,6 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Drift (Navidad)",
-      "categoria": "Skins",
-      "anio": 2025,
-      "persona": "Drift007_",
-      "fecha": "",
-      "redesPersona": [],
-      "skin": "assets/skins/drift-navidad_2025.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/drift-navidad_2025.png",
-      "url": ""
-    },
-    {
-      "titulo": "V (Navidad)",
-      "categoria": "Skins",
-      "anio": 2025,
-      "persona": "TearsFromV",
-      "fecha": "",
-      "redesPersona": [
-        {
-          "nombre": "Twitter",
-          "url": "https://x.com/TearsFromV"
-        }
-      ],
-      "skin": "assets/skins/v-navidad_2025.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/v-navidad_2025.png",
-      "url": ""
-    },
-    {
       "titulo": "Perror (Navidad)",
       "categoria": "Skins",
       "anio": 2025,
@@ -1341,6 +1338,37 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/mortex_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Drift (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Drift007_",
+      "fecha": "",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-navidad_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "V (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/v-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/v-navidad_2025.png",
       "url": ""
     },
     {
@@ -1517,7 +1545,17 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/meliin-rp_2025.png",
-      "url": ""
+      "url": "",
+      "variantes": [
+        {
+          "nombre": "Mascara",
+          "skin": "assets/skins/meliin-rp_mascara_2025.png"
+        },
+        {
+          "nombre": "Variante 1",
+          "skin": "assets/skins/meliin-rp_variante-1_2025.png"
+        }
+      ]
     },
     {
       "titulo": "???",
@@ -1628,7 +1666,13 @@ window.SITE = {
       "destacado": false,
       "descripcion": "Variante 1",
       "descarga": "assets/skins/moderador-de-soru_2025.png",
-      "url": ""
+      "url": "",
+      "variantes": [
+        {
+          "nombre": "Variante 1",
+          "skin": "assets/skins/moderador-de-soru_variante-1_2025.png"
+        }
+      ]
     },
     {
       "titulo": "Soru - Variante",

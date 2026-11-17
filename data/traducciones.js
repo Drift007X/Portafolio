@@ -11,5 +11,8 @@ window.TRADUCCIONES = {
   "Dark": "Dark",
   "Futbol": "Futbol",
   "Whiter Storm": "Whiter Storm",
-  "Traje": "Suit"
+  "Traje": "Suit",
+  "Uniforme": "Uniform",
+  "Casual": "Casual",
+  "Mascara": "Mask"
 };
