@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drift007_</title>
+  <meta name="theme-color" content="#0B0C0F">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&amp;family=Barlow+Condensed:ital,wght@1,800&amp;family=JetBrains+Mono:wght@600&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&amp;family=Barlow+Condensed:ital,wght@1,800&amp;family=JetBrains+Mono:wght@600&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700&amp;family=Barlow+Condensed:ital,wght@1,800&amp;family=JetBrains+Mono:wght@600&amp;display=swap"></noscript>
+  <script>
+    // Espera a las fuentes (máx. 1,2 s) antes de mostrar la entrada animada
+    (function (d) {
+      var h = d.documentElement; h.classList.add('fl');
+      var done = function () { h.classList.remove('fl'); };
+      setTimeout(done, 1200);
+      if (d.fonts && d.fonts.load) Promise.all([
+        d.fonts.load('800 italic 1em "Barlow Condensed"'),
+        d.fonts.load('500 1em "Barlow"')
+      ]).then(done, done);
+    })(document);
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="topbar" data-topbar>
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <span class="brand-mark"><img class="brand-img" src="assets/img/perfil-sm.webp" alt="" width="40" height="40"></span>
+        <span class="dsp brand-name" data-nombre>Drift007_</span>
+        <span class="crumb dsp" aria-hidden="true"><span class="crumb-sep">/</span>Proyectos</span>
+      </a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span>
+      </button>
+      <nav id="menu" class="links" aria-label="Secciones">
+        <a href="proyectos.html" class="tab tab--on" aria-current="page"><span>Proyectos</span></a>
+        <a href="portafolio.html" class="tab"><span>Portafolio</span></a>
+        <a href="contacto.html" class="btn btn--main btn--sm nav-cta"><span>Contacto</span></a>
+      </nav>
+    </div>
+    <div class="topbar-line" aria-hidden="true"></div>
+  </header>
+
+  <main class="page" id="contenido">
+    <div class="work-stripes" aria-hidden="true"><span></span><span></span></div>
+    <div class="wrap">
+      <div class="work-head">
+        <span class="mono e1"><span class="dot">◆</span> Todo lo que construyo</span>
+        <h1 class="dsp page-title e2">Proyectos</h1>
+      </div>
+      <div class="work-grid e3" data-proyectos></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-row">
+      <span class="diamond" aria-hidden="true"></span>
+      <button class="mono copy" type="button" data-discord><span class="copy-in">Discord: <strong data-discord-user>Drift007_</strong> <span class="copy-hint">Copiar</span></span></button>
+      <span class="mono stamp" data-trayectoria>Desde 2022 — 2026</span>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="data/site.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
