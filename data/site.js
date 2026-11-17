@@ -712,6 +712,78 @@ window.SITE = {
       "curseforge": "https://www.curseforge.com/minecraft/texture-packs/rose-diamond"
     },
     {
+      "titulo": "Black",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Esparragoh",
+      "fecha": "2026-11-17",
+      "redesPersona": [
+        {
+          "nombre": "Portafolio",
+          "url": "https://esparragocat.github.io/Portafolio/"
+        }
+      ],
+      "skin": "assets/skins/black_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/black_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Perror (Match)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Perrowuau",
+      "fecha": "2026-06-09",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/perrorwuauuuu"
+        }
+      ],
+      "skin": "assets/skins/perror-match_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/perror-match_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Rose (Match)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "BloodRoseVT",
+      "fecha": "2026-06-09",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/BloodRoseVT"
+        }
+      ],
+      "skin": "assets/skins/rose-match_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/rose-match_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Meliin",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Meliinlive",
+      "fecha": "2025-09-07",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Meliinlive"
+        }
+      ],
+      "skin": "assets/skins/meliin_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/meliin_2026.png",
+      "url": ""
+    },
+    {
       "titulo": "Mortexia",
       "categoria": "Skins",
       "anio": 2026,
@@ -751,6 +823,42 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Honey",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "ihoneylu",
+      "fecha": "2026-07-25",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/ihoneylu"
+        }
+      ],
+      "skin": "assets/skins/honey_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/honey_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Rose",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "BloodRoseVT",
+      "fecha": "2026-03-25",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/BloodRoseVT"
+        }
+      ],
+      "skin": "assets/skins/rose_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/rose_2026.png",
+      "url": ""
+    },
+    {
       "titulo": "Fitz",
       "categoria": "Skins",
       "anio": 2026,
@@ -761,6 +869,24 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/fitz_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Katto",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "SoyKatto",
+      "fecha": "2026-06-04",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/SoyKatto1"
+        }
+      ],
+      "skin": "assets/skins/katto_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/katto_2026.png",
       "url": ""
     },
     {
@@ -821,7 +947,7 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "ElColoradoFacha",
+      "titulo": "ElColorado",
       "categoria": "Skins",
       "anio": 2026,
       "persona": "ElColoradoFacha",
@@ -870,7 +996,7 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "SoyFrann",
+      "titulo": "Frann",
       "categoria": "Skins",
       "anio": 2026,
       "persona": "SoyFrann",
@@ -892,7 +1018,7 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Drift007_",
+      "titulo": "Drift",
       "categoria": "Skins",
       "anio": 2026,
       "persona": "Drift007_",
@@ -902,6 +1028,122 @@ window.SITE = {
       "destacado": false,
       "descripcion": "Mi skin principal.",
       "descarga": "assets/skins/drift007_.png",
+      "url": ""
+    },
+    {
+      "titulo": "Perror (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Perrowuau",
+      "fecha": "2025-12-09",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/perrorwuauuuu"
+        }
+      ],
+      "skin": "assets/skins/perror-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/perror-navidad_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Meliin (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Meliinlive",
+      "fecha": "2025-12-21",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Meliinlive"
+        }
+      ],
+      "skin": "assets/skins/meliin-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/meliin-navidad_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Mortexia (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Mortexcutia",
+      "fecha": "2025-11-27",
+      "redesPersona": [],
+      "skin": "assets/skins/mortexia-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/mortexia-navidad_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Mortex (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Mortexcutia",
+      "fecha": "2025-11-27",
+      "redesPersona": [],
+      "skin": "assets/skins/mortex_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/mortex_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Cookie",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Oez",
+      "fecha": "2025-12-23",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/4nsk3r_"
+        }
+      ],
+      "skin": "assets/skins/cookie_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/cookie_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Oez (RP) Variante 2",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Oez",
+      "fecha": "2025-12-16",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/4nsk3r_"
+        }
+      ],
+      "skin": "assets/skins/oez-rp-variante-2_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/oez-rp-variante-2_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Oez (RP)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Oez",
+      "fecha": "2025-12-16",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/4nsk3r_"
+        }
+      ],
+      "skin": "assets/skins/oez-rp_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/oez-rp_2025.png",
       "url": ""
     },
     {
@@ -936,29 +1178,21 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Mortexia (Navidad)",
+      "titulo": "Katto",
       "categoria": "Skins",
       "anio": 2025,
-      "persona": "Mortexcutia",
-      "fecha": "2025-11-27",
-      "redesPersona": [],
-      "skin": "assets/skins/mortexia-navidad_2025.png",
+      "persona": "SoyKatto",
+      "fecha": "2025-04-03",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/SoyKatto1"
+        }
+      ],
+      "skin": "assets/skins/katto_2025.png",
       "destacado": false,
       "descripcion": "",
-      "descarga": "assets/skins/mortexia-navidad_2025.png",
-      "url": ""
-    },
-    {
-      "titulo": "Mortex (Navidad)",
-      "categoria": "Skins",
-      "anio": 2025,
-      "persona": "Mortexcutia",
-      "fecha": "2025-11-27",
-      "redesPersona": [],
-      "skin": "assets/skins/mortex_2026.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/mortex_2026.png",
+      "descarga": "assets/skins/katto_2025.png",
       "url": ""
     },
     {
@@ -1033,7 +1267,7 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Drift007_",
+      "titulo": "Drift",
       "categoria": "Skins",
       "anio": 2025,
       "persona": "Drift007_",
@@ -1043,6 +1277,42 @@ window.SITE = {
       "destacado": false,
       "descripcion": "Mi skin de 2025.",
       "descarga": "assets/skins/drift007_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Perror",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Perrowuau",
+      "fecha": "2024-07-05",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/perrorwuauuuu"
+        }
+      ],
+      "skin": "assets/skins/perror_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/perror_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Perror General",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Perrowuau",
+      "fecha": "2024-07-05",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/perrorwuauuuu"
+        }
+      ],
+      "skin": "assets/skins/perror-general_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/perror-general_2024.png",
       "url": ""
     },
     {
@@ -1090,7 +1360,7 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Drift007_",
+      "titulo": "Drift",
       "categoria": "Skins",
       "anio": 2024,
       "persona": "Drift007_",
@@ -1103,7 +1373,7 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Drift007_",
+      "titulo": "Drift",
       "categoria": "Skins",
       "anio": 2023,
       "persona": "Drift007_",
