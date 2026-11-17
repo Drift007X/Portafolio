@@ -2029,10 +2029,230 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Pyro y Coko",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/pyro-y-coko_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "We Become We",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/we-become-we_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "WhiteRooms",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/whiterooms_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Honey Skin",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/honey-skin_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "V y Noor - Mini",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/v-y-noor-mini_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Scythes Vanilla Mod",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/scythes-vanilla-mod_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Lord Drift",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/lord-drift_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Doki Evento",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/doki-evento_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Pillar Pummel",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/pillar-pummel_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
       "titulo": "Foto de perfil",
       "categoria": "Renders",
       "anio": 2026,
       "imagen": "assets/img/perfil.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Drift Skin",
+      "categoria": "Renders",
+      "anio": 2026,
+      "imagen": "assets/img/renders/drift-skin_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Skins 2025",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/skins-2025_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "R.E.P.O",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/r-e-p-o_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Ghosterd",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/ghosterd_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Regalo",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/regalo_2026.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Would You Be My Valentine?",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/would-you-be-my-valentine_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Action and Stuff",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/action-and-stuff_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Paz",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/paz_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Muchas V",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/muchas-v_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Navidad",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/navidad_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Flores Amarillas",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/flores-amarillas_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Driv",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/driv_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Pesca",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/pesca_2024.webp",
       "destacado": false,
       "descripcion": "",
       "descarga": "",
