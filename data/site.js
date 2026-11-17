@@ -712,6 +712,95 @@ window.SITE = {
       "curseforge": "https://www.curseforge.com/minecraft/texture-packs/rose-diamond"
     },
     {
+      "titulo": "ElColorado (Wither Storm)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "ElColoradoFacha",
+      "fecha": "2026-09-06",
+      "redesPersona": [
+        {
+          "nombre": "Youtube",
+          "url": "https://www.youtube.com/@elcoloradofacha"
+        }
+      ],
+      "skin": "assets/skins/elcolorado-wither-storm_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/elcolorado-wither-storm_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "ElColoradoFacha",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "ElColoradoFacha",
+      "fecha": "2026-05-02",
+      "redesPersona": [
+        {
+          "nombre": "Youtube",
+          "url": "https://www.youtube.com/@elcoloradofacha"
+        }
+      ],
+      "skin": "assets/skins/elcoloradofacha_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/elcoloradofacha_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "R.A.I.N",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Rain_Kuu",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Rain_linkkuu"
+        }
+      ],
+      "skin": "assets/skins/r-a-i-n_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/r-a-i-n_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Frann PJ",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "SoyFrann",
+      "fecha": "2026-06-05",
+      "redesPersona": [],
+      "skin": "assets/skins/frann-pj_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/frann-pj_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "SoyFrann",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "SoyFrann",
+      "fecha": "2026-04-28",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/SoyFrann1"
+        },
+        {
+          "nombre": "Youtube",
+          "url": "https://www.youtube.com/@SoyFrannn"
+        }
+      ],
+      "skin": "assets/skins/frann_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/frann_2026.png",
+      "url": ""
+    },
+    {
       "titulo": "Drift007_",
       "categoria": "Skins",
       "anio": 2026,
@@ -725,6 +814,77 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "BlueSitoh",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "BlueSitoh",
+      "fecha": "2025-10-05",
+      "redesPersona": [
+        {
+          "nombre": "Youtube",
+          "url": "https://www.youtube.com/@bluesitoh"
+        }
+      ],
+      "skin": "assets/skins/bluesitoh_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/bluesitoh_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "RainKuu",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Rain_linkkuu",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Rain_linkkuu"
+        }
+      ],
+      "skin": "assets/skins/rainkuu_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/rainkuu_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Moderador de Soru",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "SoruSan",
+      "fecha": "2025-12-22",
+      "redesPersona": [],
+      "skin": "assets/skins/moderador-de-soru_2025.png",
+      "destacado": false,
+      "descripcion": "Variante 1",
+      "descarga": "assets/skins/moderador-de-soru_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Soru - Variante",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "SoruSan",
+      "fecha": "2025-09-16",
+      "redesPersona": [
+        {
+          "nombre": "Youtube",
+          "url": "https://www.youtube.com/@Soru_San"
+        },
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/SoruSan2"
+        }
+      ],
+      "skin": "assets/skins/soru-variante-1_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/soru-variante-1_2025.png",
+      "url": ""
+    },
+    {
       "titulo": "Drift007_",
       "categoria": "Skins",
       "anio": 2025,
@@ -735,6 +895,50 @@ window.SITE = {
       "destacado": false,
       "descripcion": "Mi skin de 2025.",
       "descarga": "assets/skins/drift007_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Soru",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "SoruSan",
+      "fecha": "2024-08-02",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/SoruSan2"
+        },
+        {
+          "nombre": "Youtube",
+          "url": "https://www.youtube.com/@Soru_San"
+        }
+      ],
+      "skin": "assets/skins/soru_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/soru_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Jeff",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "SoruSan",
+      "fecha": "2024-08-04",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/SoruSan2"
+        },
+        {
+          "nombre": "Youtube",
+          "url": "https://www.youtube.com/@Soru_San"
+        }
+      ],
+      "skin": "assets/skins/jeff_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/jeff_2024.png",
       "url": ""
     },
     {
