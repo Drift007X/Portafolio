@@ -2179,6 +2179,16 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Lukah",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/lukah_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
       "titulo": "Would You Be My Valentine?",
       "categoria": "Renders",
       "anio": 2025,
@@ -2199,10 +2209,70 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Servidor Comision",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/servidor-comision_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Capybaras Evento",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/capybaras-evento_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Pillar Pummel 1",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/pillar-pummel-1_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
       "titulo": "Paz",
       "categoria": "Renders",
       "anio": 2025,
       "imagen": "assets/img/renders/paz_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Leavy Serie",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/leavy-serie_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "PerrorWuuaus???",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/perrorwuuaus_2025.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Render Menu Capybara!",
+      "categoria": "Renders",
+      "anio": 2025,
+      "imagen": "assets/img/renders/render-menu-capybara_2025.webp",
       "destacado": false,
       "descripcion": "",
       "descarga": "",
@@ -2219,6 +2289,16 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Navidad en Crysis",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/navidad-en-crysis_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
       "titulo": "Navidad",
       "categoria": "Renders",
       "anio": 2024,
@@ -2229,10 +2309,70 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Un Dragon...",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/un-dragon_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Flower Tools",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/flower-tools_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Action and Stuff RP",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/action-and-stuff-rp_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Team Azul ?",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/team-azul_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
       "titulo": "Flores Amarillas",
       "categoria": "Renders",
       "anio": 2024,
       "imagen": "assets/img/renders/flores-amarillas_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "SW: Better Variante 2",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/sw-better-variante-2_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "SW Better",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/sw-better_2024.webp",
       "destacado": false,
       "descripcion": "",
       "descarga": "",
@@ -2253,6 +2393,86 @@ window.SITE = {
       "categoria": "Renders",
       "anio": 2024,
       "imagen": "assets/img/renders/pesca_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "KuraSMP EP6",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/kurasmp-ep6_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "KuraSMP EP5",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/kurasmp-ep5_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "KuraSMP EP4",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/kurasmp-ep4_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "KuraSMP EP3",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/kurasmp-ep3_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "KuraSMP EP2",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/kurasmp-ep2_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "KuraSMP",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/kurasmp_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "El trim mas complicado...",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/el-trim-mas-complicado_2024.webp",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "",
+      "url": ""
+    },
+    {
+      "titulo": "Choque Elemental",
+      "categoria": "Renders",
+      "anio": 2024,
+      "imagen": "assets/img/renders/choque-elemental_2024.webp",
       "destacado": false,
       "descripcion": "",
       "descarga": "",
