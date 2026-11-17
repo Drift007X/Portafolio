@@ -712,6 +712,97 @@ window.SITE = {
       "curseforge": "https://www.curseforge.com/minecraft/texture-packs/rose-diamond"
     },
     {
+      "titulo": "Mortexia",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Mortexcutia",
+      "fecha": "2026-02-20",
+      "redesPersona": [],
+      "skin": "assets/skins/mortexia_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/mortexia_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Mortex",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Mortexcutia",
+      "fecha": "2026-02-20",
+      "redesPersona": [],
+      "skin": "assets/skins/mortex_2026-2.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/mortex_2026-2.png",
+      "url": ""
+    },
+    {
+      "titulo": "Jiunn",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "MisterHyun",
+      "fecha": "2026-07-15",
+      "redesPersona": [],
+      "skin": "assets/skins/jiunn_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/jiunn_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Fitz",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Fitz",
+      "fecha": "2026-09-30",
+      "redesPersona": [],
+      "skin": "assets/skins/fitz_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/fitz_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Chiletian",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Chiletian",
+      "fecha": "2026-08-19",
+      "redesPersona": [],
+      "skin": "assets/skins/chiletian_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/chiletian_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Dark",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Dark",
+      "fecha": "2026-08-03",
+      "redesPersona": [],
+      "skin": "assets/skins/dark_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/dark_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Geno",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Genocida",
+      "fecha": "2026-09-12",
+      "redesPersona": [],
+      "skin": "assets/skins/geno_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/geno_2026.png",
+      "url": ""
+    },
+    {
       "titulo": "ElColorado (Wither Storm)",
       "categoria": "Skins",
       "anio": 2026,
@@ -811,6 +902,63 @@ window.SITE = {
       "destacado": false,
       "descripcion": "Mi skin principal.",
       "descarga": "assets/skins/drift007_.png",
+      "url": ""
+    },
+    {
+      "titulo": "Meliin (RP)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Meliinlive",
+      "fecha": "2025-11-18",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Meliinlive"
+        }
+      ],
+      "skin": "assets/skins/meliin-rp_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/meliin-rp_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Okami",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Okami_Aka_Kuro",
+      "fecha": "2025-11-19",
+      "redesPersona": [],
+      "skin": "assets/skins/okami_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/okami_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Mortexia (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Mortexcutia",
+      "fecha": "2025-11-27",
+      "redesPersona": [],
+      "skin": "assets/skins/mortexia-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/mortexia-navidad_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Mortex (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Mortexcutia",
+      "fecha": "2025-11-27",
+      "redesPersona": [],
+      "skin": "assets/skins/mortex_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/mortex_2026.png",
       "url": ""
     },
     {
