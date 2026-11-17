@@ -1,0 +1,335 @@
+// ─────────────────────────────────────────────────────────────
+//  DATOS DEL PORTAFOLIO
+//  Este es el único archivo que tenés que tocar para cambiar
+//  textos, redes y trabajos. La app de escritorio va a editar
+//  este mismo archivo.
+// ─────────────────────────────────────────────────────────────
+window.SITE = {
+  nombre: "Drift007_",
+  // Parte del nombre que va en azul (tiene que estar al final del nombre)
+  nombreAcento: "007_",
+  etiqueta: "Diseñador · Argentina",
+  enLinea: true,
+  bio: "El destino se construye a mano.",
+  bioSuave: "Pulo cada detalle hasta que no se parezca a nada más.",
+  foto: "assets/img/perfil.webp",
+  actualizado: "Noviembre 2026",
+
+  // Línea del pie
+  trayectoria: "Desde 2022 — 2026",
+
+  // Lo que hacés (aparece como chips debajo del nombre)
+  habilidades: ["Pixel art", "Skins de Minecraft", "Renders", "Mods"],
+
+  // Comisiones (página de contacto)
+  //  estado: "abiertas", "espera" (lista de espera) o "cerradas"
+  //  nota (opcional): una línea, por ejemplo "Respondo en 24-48 h"
+  //  servicios: lo que ofrecés; disponible: false lo muestra tachado
+  //  link (opcional): adónde lleva el botón (por defecto, tu Discord)
+  comisiones: {
+    estado: "abiertas",
+    nota: "",
+    servicios: [
+      { nombre: "Skins de Minecraft", disponible: true },
+      { nombre: "Pixel art", disponible: true },
+      { nombre: "Renders", disponible: true },
+      { nombre: "Mods", disponible: true },
+      { nombre: "Texture packs", disponible: true }
+    ],
+    link: "https://discord.gg/NP4h2fFv33"
+  },
+
+  // Usuario de Discord (se muestra para que te agreguen)
+  discordUsuario: "Drift007_",
+
+  // Redes: dejá url vacía ("") para ocultar una red
+  redes: [
+    { nombre: "YouTube",          icono: "youtube",         url: "https://www.youtube.com/@Drift007_" },
+    { nombre: "X",                icono: "x",               url: "https://x.com/Drift007_" },
+    { nombre: "Discord",          icono: "discord",         url: "https://discord.gg/NP4h2fFv33" },
+    { nombre: "Modrinth",         icono: "modrinth",        url: "https://modrinth.com/user/Drift007_" },
+    { nombre: "CurseForge",       icono: "curseforge",      url: "https://www.curseforge.com/members/drift007/projects" },
+    { nombre: "Planet Minecraft", icono: "planetminecraft", url: "https://www.planetminecraft.com/member/drift007_/" }
+  ],
+
+  // Proyectos (sección "Proyectos")
+  //  logo: ruta a una imagen (PNG/SVG, cuadrada). Si está vacío se muestran las iniciales.
+  //  color: color del cuadro del logo cuando no hay imagen.
+  proyectos: [
+    {
+      nombre: "Elysis Creative",
+      iniciales: "EC",
+      color: "#4B7BEC",
+      logo: "assets/img/elysis.webp",
+      rol: "Co-CEO · Diseñador de pixel art",
+      detalle: "",
+      meta: "2023 — 2026",
+      url: "https://www.elysiscreative.com/"
+    },
+    {
+      nombre: "Dragetube",
+      iniciales: "DT",
+      color: "#2C2E35",
+      logo: "assets/img/dragetube.webp",
+      rol: "App de escritorio",
+      detalle: "Avatar que reacciona a tu voz, listo para OBS.",
+      meta: "Próximamente",
+      url: ""
+    },
+    {
+      nombre: "DrageSound",
+      iniciales: "DS",
+      color: "#2C2E35",
+      logo: "assets/img/dragesound.webp",
+      rol: "App de escritorio",
+      detalle: "Escuchá música sin tantos problemas.",
+      meta: "Próximamente",
+      url: ""
+    }
+  ],
+
+  // Portafolio (página portafolio.html)
+  //  categorias: las secciones del portafolio (nombre + frase corta)
+  categorias: [
+    { nombre: "RP",      desc: "Texture packs de Minecraft" },
+    { nombre: "Mods",    desc: "Contenido para Minecraft" },
+    { nombre: "Skins",   desc: "Personajes listos para usar" },
+    { nombre: "Renders", desc: "Escenas e imágenes" },
+    { nombre: "Modelos", desc: "Modelos 3D para Minecraft" }
+  ],
+  //  Trabajos:
+  //  categoria: tiene que coincidir con el nombre de una categoría
+  //  imagen: ruta a la imagen del trabajo
+  //  destacado (opcional): true para mostrarlo en grande
+  //  descripcion (opcional): una línea que se ve al abrir el trabajo
+  //  descarga (opcional): link para descargar (por ejemplo, el .png de una skin)
+  //  url (opcional): link al trabajo (Modrinth, CurseForge, etc.)
+  //  anio: año de creación (sirve para agrupar por año)
+  //  Mods: logo, loaders, versiones, modrinth y curseforge (links de descarga)
+  //        estado (opcional): por ejemplo "Descontinuado"
+  //  skin (solo Skins): ruta al .png de la skin (64x64) para el visor 3D
+  //        persona: nombre de la persona para la que hiciste la skin
+  //        fecha: fecha de creación, "AAAA-MM-DD" o "AAAA-MM" (si falta, usa el año)
+  //        redesPersona: redes de esa persona, por ejemplo
+  //          [{ nombre: "YouTube", url: "https://youtube.com/@..." }]  (vacío = no se muestra)
+  portafolio: [
+    {
+      titulo: "Scythes Vanilla",
+      categoria: "Mods",
+      anio: 2026,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2119/127/256/256/639276087786355622.png",
+      imagen: "https://media.forgecdn.net/attachments/1638/727/scythes-vanilla-1-png.png",
+      descripcion: "Guadañas con estilo vanilla: ataque en área, más alcance y un encantamiento que roba vida.",
+      loaders: ["Fabric", "Forge", "NeoForge"],
+      versiones: ["26.3", "1.21.11", "1.21.1", "1.20.1"],
+      modrinth: "https://modrinth.com/mod/scythes-vanilla",
+      curseforge: "https://www.curseforge.com/minecraft/mc-mods/scythes-vanilla"
+    },
+    {
+      titulo: "Elysis Hammers",
+      categoria: "Mods",
+      anio: 2024,
+      logo: "https://cdn.modrinth.com/data/zyjxdQQV/b84204598672370612dde4736ac680e59072aca9_96.webp",
+      imagen: "https://cdn.modrinth.com/data/zyjxdQQV/images/71ac0ad7eb0b4e360bb60f87fa29e9070caf01ea_350.webp",
+      descripcion: "Martillos de minería y combate con efectos en área, habilidades especiales, martillos secretos y mejoras.",
+      loaders: ["Fabric", "Forge", "NeoForge"],
+      versiones: ["26.2", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20"],
+      modrinth: "https://modrinth.com/mod/elysis_hammers",
+      curseforge: ""
+    },
+    {
+      titulo: "Elysis Radiation",
+      categoria: "Mods",
+      anio: 2024,
+      logo: "https://cdn.modrinth.com/data/AdACnFrq/9578de6daabcd4dbfc90709e04f8432777e0ad59.png",
+      imagen: "https://cdn.modrinth.com/data/AdACnFrq/images/fb0b0ad523b94905527a3628ce954f72b58e4514.png",
+      descripcion: "Hecho para la serie rol Nucleaquaria: agrega radiación a océanos y ríos, con nuevos peligros bajo el agua.",
+      loaders: ["Fabric"],
+      versiones: ["1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1"],
+      modrinth: "https://modrinth.com/mod/elysis-radiation-mod",
+      curseforge: ""
+    },
+    {
+      titulo: "Customizer Legacy",
+      categoria: "Mods",
+      anio: 2023,
+      estado: "Descontinuado",
+      logo: "https://media.forgecdn.net/avatars/thumbnails/821/119/256/256/638202831817453493.png",
+      imagen: "https://cdn.modrinth.com/data/UUDRYN9f/images/fffd89bdac74e7475b0d7a538cb3c77c1272e8bb.png",
+      descripcion: "Permite ponerle camuflajes a tus herramientas.",
+      loaders: ["Forge", "NeoForge"],
+      versiones: ["1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.19.2"],
+      modrinth: "https://modrinth.com/mod/customizer_mod",
+      curseforge: "https://www.curseforge.com/minecraft/mc-mods/customizer"
+    },
+    {
+      titulo: "WAKAMOD",
+      categoria: "Mods",
+      logo: "https://media.forgecdn.net/avatars/thumbnails/283/525/256/256/637293465854283810.jpeg",
+      imagen: "",
+      descripcion: "Variaciones de supervivencia y contenido de rol, hecho para la serie WAKAMODS de Zhark.",
+      loaders: [],
+      versiones: [],
+      modrinth: "",
+      curseforge: "https://www.curseforge.com/minecraft/mc-mods/wakamod"
+    },
+    {
+      titulo: "Bare Bones x Flower Ores",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2107/443/256/256/639272501797978864.png",
+      imagen: "https://cdn.modrinth.com/data/rQ4Qk8f7/images/e3cdc775105cc3989ba16ac487e40769f54fcc43.webp",
+      descripcion: "Reemplaza los minerales normales por versiones florales, con la base de Bare Bones.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2"],
+      modrinth: "https://modrinth.com/resourcepack/flower-ores-bb",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/flower-ores"
+    },
+    {
+      titulo: "Bare Bones x Flower Tools",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2107/275/256/256/639272462394903621.png",
+      imagen: "https://cdn.modrinth.com/data/dttT7PkJ/images/d02702be95ec6183358cae2b80effd9423cc0d87.webp",
+      descripcion: "Cambia tu armadura y herramientas por versiones florales al estilo Bare Bones.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20"],
+      modrinth: "https://modrinth.com/resourcepack/flower-tools-bb",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/bare-bones-x-flower-tools"
+    },
+    {
+      titulo: "Bare Bones x Capybara Totem",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2108/107/256/256/639272657779220521.png",
+      imagen: "https://cdn.modrinth.com/data/ZbtwtL8X/images/665246309a84f1e4d8f49679e44a41639599962a.webp",
+      descripcion: "Convierte el tótem vanilla en uno con temática de capibara.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20", "1.19.4", "1.19.3", "1.19.2", "1.19.1", "1.19", "1.18.2", "1.18.1", "1.18", "1.17.1", "1.17", "1.16.5", "1.16.4", "1.16.3", "1.16.2", "1.16.1", "1.16"],
+      modrinth: "https://modrinth.com/resourcepack/capybara-totem-bb",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/capybara-totem-x-bare-bones"
+    },
+    {
+      titulo: "Bare Bones x Capybara Mob",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://cdn.modrinth.com/data/niUB0fx5/images/83f6f3e7a58ac65f455cd04699322ba1716abfeb_350.webp",
+      imagen: "https://cdn.modrinth.com/data/niUB0fx5/images/83f6f3e7a58ac65f455cd04699322ba1716abfeb_350.webp",
+      descripcion: "Capibaras en Minecraft sin mods ni cambiar tu mundo, de la forma más vanilla posible.",
+      versiones: ["1.21.11", "1.21.10", "1.21.9"],
+      modrinth: "https://modrinth.com/resourcepack/capybaras-mob-bb",
+      curseforge: ""
+    },
+    {
+      titulo: "Scythes Vanilla Pack",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2106/946/256/256/639272368088437966.png",
+      imagen: "https://cdn.modrinth.com/data/iHUIn5hZ/images/8289245a4025a729747855bc5cf36db6bb59f1ea_350.webp",
+      descripcion: "Trae guadañas a Minecraft de forma limpia, sin perder la experiencia vanilla.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21"],
+      modrinth: "https://modrinth.com/resourcepack/scythes-vanilla-pack",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/scythes-vanilla-pack-cit"
+    },
+    {
+      titulo: "Monstrous Pumpkin",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2107/373/256/256/639272487904523134.png",
+      imagen: "https://cdn.modrinth.com/data/rZYlZIc1/images/2508b0eb1ed55bc377a1553b4a42399021f5c715.webp",
+      descripcion: "Cambiá tu calabaza por algo mucho más monstruoso.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20"],
+      modrinth: "https://modrinth.com/resourcepack/monstrous-pumpkin",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/monstrous-pumpkin"
+    },
+    {
+      titulo: "Hoshi Totem",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://cdn.modrinth.com/data/6haGlPtg/7891f0a3f87b05125cb9e86c26ee1bcd2002e7a1_96.webp",
+      imagen: "https://cdn.modrinth.com/data/6haGlPtg/images/0f62bfcefca230ff623f4495a0f30809632df0b9_350.webp",
+      descripcion: "Un pequeño Tótem de la Inmortalidad con forma de estrella.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20", "1.19.4", "1.19.3", "1.19.2", "1.19.1", "1.19", "1.18.2", "1.18.1", "1.18", "1.17.1", "1.17", "1.16.5", "1.16.4", "1.16.3", "1.16.2", "1.16.1", "1.16"],
+      modrinth: "https://modrinth.com/resourcepack/hoshi-totem",
+      curseforge: ""
+    },
+    {
+      titulo: "Vanilla Drift Varity",
+      categoria: "RP",
+      anio: 2026,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/1920/374/256/256/639196672246792909.png",
+      imagen: "https://cdn.modrinth.com/data/dLtvW5f6/images/c7a06f67c8414cb8f00a13a038b6bea38f7923a3_350.webp",
+      descripcion: "Mejora Minecraft sin romper lo vanilla, explorando todos los cambios de texturas que permite el juego.",
+      versiones: ["1.21.11", "1.21.10"],
+      modrinth: "https://modrinth.com/resourcepack/drift-varity",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/vanilla-drift-varity"
+    },
+    {
+      titulo: "Dark Iron",
+      categoria: "RP",
+      anio: 2025,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2107/410/256/256/639272495280060022.png",
+      imagen: "https://cdn.modrinth.com/data/ke4hhvh3/images/987856fdcd957893fe078d976765d0e3582d2b79.webp",
+      descripcion: "Oscurece el hierro del juego para que combine mejor con el entorno.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.16.5", "1.16.4", "1.16.3", "1.16.2", "1.12.2", "1.12.1", "1.12", "1.11.2", "1.11.1", "1.11"],
+      modrinth: "https://modrinth.com/resourcepack/dark-iron-tools-and-armor",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/dark-iron"
+    },
+    {
+      titulo: "Misión:Bingo GUI",
+      categoria: "RP",
+      anio: 2025,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2107/603/256/256/639272545705728197.png",
+      imagen: "https://cdn.modrinth.com/data/67bDTyi6/images/218f2569d833d3410271e7d48d15895137a8c7a7_350.webp",
+      descripcion: "Cambia el inventario, el libro de recetas, la barra rápida, los corazones y la armadura. ¿Listo para la misión?",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2"],
+      modrinth: "https://modrinth.com/resourcepack/misionbingo-gui",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/mision-b-gui"
+    },
+    {
+      titulo: "Blue Cherry Grove",
+      categoria: "RP",
+      anio: 2024,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2107/590/256/256/639272542285743366.png",
+      imagen: "https://cdn.modrinth.com/data/EzVI5dgW/images/ad829aa241e254512808c0862fc02faf9513e16b_350.webp",
+      descripcion: "Recolorea todo el bioma de cerezos con texturas, madera y partículas azules.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20"],
+      modrinth: "https://modrinth.com/resourcepack/blue-cherry",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/blue-cherry"
+    },
+    {
+      titulo: "Bare Bones x Capybara Armor",
+      categoria: "RP",
+      anio: 2024,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2107/455/256/256/639272504944116861.png",
+      imagen: "https://cdn.modrinth.com/data/UrhdVQuL/images/9cedf92e45f86f526e9c7c8921af35a0eaeb7e41_350.webp",
+      descripcion: "Reemplaza tu armadura por una armadura de capibara. ¿Qué puede ser mejor?",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20", "1.16.5", "1.16.4", "1.16.3", "1.16.2", "1.12.2", "1.12.1", "1.12", "1.11.2", "1.11.1", "1.11"],
+      modrinth: "https://modrinth.com/resourcepack/capybara-armor-bb",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/capybara-armor-x-bare-bones"
+    },
+    {
+      titulo: "Beecraft GUI",
+      categoria: "RP",
+      anio: 2024,
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2108/345/256/256/639272723233051947.png",
+      imagen: "https://cdn.modrinth.com/data/7u8BPFfw/images/3bac26c64e7ca93314e173c190b4a3eeba3e4976_350.webp",
+      descripcion: "Rediseña todas las interfaces al estilo Beecraft, con temática de abejas.",
+      versiones: ["26.3", "26.2", "26.1.2", "26.1.1", "26.1", "1.21.11", "1.21.10", "1.21.9", "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21", "1.20.1"],
+      modrinth: "https://modrinth.com/resourcepack/beecraft-gui",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/beecraft-gui"
+    },
+    {
+      titulo: "Rose Diamond",
+      categoria: "RP",
+      logo: "https://media.forgecdn.net/avatars/thumbnails/2149/418/256/256/639285731946013086.png",
+      imagen: "",
+      descripcion: "Cambia las texturas del diamante por versiones color rosa.",
+      versiones: [],
+      modrinth: "",
+      curseforge: "https://www.curseforge.com/minecraft/texture-packs/rose-diamond"
+    },
+    { titulo: "Drift007_", categoria: "Skins", anio: 2026, persona: "Drift007_", fecha: "", redesPersona: [], skin: "assets/skins/drift007_.png", destacado: false, descripcion: "Mi skin principal.", descarga: "assets/skins/drift007_.png", url: "" },
+    { titulo: "Drift007_", categoria: "Skins", anio: 2025, persona: "Drift007_", fecha: "", redesPersona: [], skin: "assets/skins/drift007_2025.png", destacado: false, descripcion: "Mi skin de 2025.", descarga: "assets/skins/drift007_2025.png", url: "" },
+    { titulo: "Drift007_", categoria: "Skins", anio: 2024, persona: "Drift007_", fecha: "", redesPersona: [], skin: "assets/skins/drift007_2024.png", destacado: false, descripcion: "Mi skin de 2024.", descarga: "assets/skins/drift007_2024.png", url: "" },
+    { titulo: "Drift007_", categoria: "Skins", anio: 2023, persona: "Drift007_", fecha: "", redesPersona: [], skin: "assets/skins/drift007_2023.png", destacado: false, descripcion: "Mi skin de 2023.", descarga: "assets/skins/drift007_2023.png", url: "" },
+    { titulo: "Foto de perfil", categoria: "Renders", anio: 2026, imagen: "assets/img/perfil.webp", destacado: false, descripcion: "", descarga: "", url: "" }
+  ]
+};
