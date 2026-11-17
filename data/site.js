@@ -748,6 +748,78 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Lukah (Pijama)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Lukah201",
+      "fecha": "2026-06-09",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-pijama_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-pijama_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah (Futbol)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Lukah201",
+      "fecha": "2026-06-09",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-futbol_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-futbol_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah Minita",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Lukah201",
+      "fecha": "2026-01-08",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-minita_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-minita_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Lukah201",
+      "fecha": "2026-01-08",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah_2026.png",
+      "url": ""
+    },
+    {
       "titulo": "Lukah Dark",
       "categoria": "Skins",
       "anio": 2026,
@@ -1103,19 +1175,6 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "???",
-      "categoria": "Skins",
-      "anio": 2025,
-      "persona": "",
-      "fecha": "2025-06-08",
-      "redesPersona": [],
-      "skin": "assets/skins/trabajo_2025.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/trabajo_2025.png",
-      "url": ""
-    },
-    {
       "titulo": "Perror (Navidad)",
       "categoria": "Skins",
       "anio": 2025,
@@ -1178,6 +1237,24 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Funky",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Funky_Ghst",
+      "fecha": "2025-12-29",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Funky_Ghst"
+        }
+      ],
+      "skin": "assets/skins/funky_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/funky_2025.png",
+      "url": ""
+    },
+    {
       "titulo": "Cookie",
       "categoria": "Skins",
       "anio": 2025,
@@ -1232,6 +1309,60 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Lukah (Antiguo)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Lukah201",
+      "fecha": "2025-11-21",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-antiguo_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-antiguo_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah Minita",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Lukah201",
+      "fecha": "2025-06-10",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-minita_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-minita_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah (Traje)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Lukah201",
+      "fecha": "2025-04-28",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-traje_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-traje_2025.png",
+      "url": ""
+    },
+    {
       "titulo": "Lukah",
       "categoria": "Skins",
       "anio": 2025,
@@ -1243,10 +1374,10 @@ window.SITE = {
           "url": "https://x.com/lukah201"
         }
       ],
-      "skin": "assets/skins/lukah_2025.png",
+      "skin": "assets/skins/lukah_2025-2.png",
       "destacado": false,
       "descripcion": "",
-      "descarga": "assets/skins/lukah_2025.png",
+      "descarga": "assets/skins/lukah_2025-2.png",
       "url": ""
     },
     {
@@ -1265,6 +1396,19 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/meliin-rp_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "???",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "",
+      "fecha": "2025-06-08",
+      "redesPersona": [],
+      "skin": "assets/skins/trabajo_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/trabajo_2025.png",
       "url": ""
     },
     {
