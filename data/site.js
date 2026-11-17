@@ -712,24 +712,6 @@ window.SITE = {
       "curseforge": "https://www.curseforge.com/minecraft/texture-packs/rose-diamond"
     },
     {
-      "titulo": "Black",
-      "categoria": "Skins",
-      "anio": 2026,
-      "persona": "Esparragoh",
-      "fecha": "2026-11-17",
-      "redesPersona": [
-        {
-          "nombre": "Portafolio",
-          "url": "https://esparragocat.github.io/Portafolio/"
-        }
-      ],
-      "skin": "assets/skins/black_2026.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/black_2026.png",
-      "url": ""
-    },
-    {
       "titulo": "Perror (Match)",
       "categoria": "Skins",
       "anio": 2026,
@@ -763,6 +745,78 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/rose-match_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah Dark",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Lukah201",
+      "fecha": "2026-06-28",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-dark_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-dark_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Black",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Esparragoh",
+      "fecha": "2026-11-17",
+      "redesPersona": [
+        {
+          "nombre": "Portafolio",
+          "url": "https://esparragocat.github.io/Portafolio/"
+        }
+      ],
+      "skin": "assets/skins/black_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/black_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Esparrago",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Esparragoh",
+      "fecha": "2026-06-19",
+      "redesPersona": [
+        {
+          "nombre": "Portafolio",
+          "url": "https://esparragocat.github.io/Portafolio/"
+        }
+      ],
+      "skin": "assets/skins/esparrago_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/esparrago_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Anchy",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Esparragoh",
+      "fecha": "2026-04-19",
+      "redesPersona": [
+        {
+          "nombre": "Portafolio",
+          "url": "https://esparragocat.github.io/Portafolio/"
+        }
+      ],
+      "skin": "assets/skins/anchy_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/anchy_2026.png",
       "url": ""
     },
     {
@@ -1031,6 +1085,37 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Esparrago",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Esparragoh",
+      "fecha": "2025-12-03",
+      "redesPersona": [
+        {
+          "nombre": "Portafolio",
+          "url": "https://esparragocat.github.io/Portafolio/"
+        }
+      ],
+      "skin": "assets/skins/esparrago_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/esparrago_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "???",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "",
+      "fecha": "2025-06-08",
+      "redesPersona": [],
+      "skin": "assets/skins/trabajo_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/trabajo_2025.png",
+      "url": ""
+    },
+    {
       "titulo": "Perror (Navidad)",
       "categoria": "Skins",
       "anio": 2025,
@@ -1144,6 +1229,24 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/oez-rp_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Lukah201",
+      "fecha": "2025-04-28",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah_2025.png",
       "url": ""
     },
     {
@@ -1280,6 +1383,120 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Leavyh (BB)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Leavyh",
+      "fecha": "2024-10-17",
+      "redesPersona": [],
+      "skin": "assets/skins/leavyh-bb_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/leavyh-bb_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Anchy  (BB)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Anchy",
+      "fecha": "2024-10-17",
+      "redesPersona": [],
+      "skin": "assets/skins/anchy-bb_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/anchy-bb_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Drift (BB)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Drift007_",
+      "fecha": "2024-10-17",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-bb_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-bb_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "V (BB)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "TearsFromV",
+      "fecha": "2024-10-17",
+      "redesPersona": [],
+      "skin": "assets/skins/v-bb_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/v-bb_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Dave (Nucle)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Drift007_",
+      "fecha": "2024-06-29",
+      "redesPersona": [],
+      "skin": "assets/skins/dave-nucle_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/dave-nucle_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Drift (CFC)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Drift007_",
+      "fecha": "2024-04-20",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-cfc_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-cfc_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah (Traje)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Lukah201",
+      "fecha": "2024-06-02",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah-traje_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah-traje_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Lukah",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Lukah201",
+      "fecha": "2024-06-02",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/lukah201"
+        }
+      ],
+      "skin": "assets/skins/lukah_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/lukah_2024.png",
+      "url": ""
+    },
+    {
       "titulo": "Perror",
       "categoria": "Skins",
       "anio": 2024,
@@ -1370,6 +1587,19 @@ window.SITE = {
       "destacado": false,
       "descripcion": "Mi skin de 2024.",
       "descarga": "assets/skins/drift007_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Drift (Navidad)",
+      "categoria": "Skins",
+      "anio": 2023,
+      "persona": "Drift007_",
+      "fecha": "",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-navidad_2023.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-navidad_2023.png",
       "url": ""
     },
     {
