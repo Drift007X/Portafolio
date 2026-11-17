@@ -712,6 +712,24 @@ window.SITE = {
       "curseforge": "https://www.curseforge.com/minecraft/texture-packs/rose-diamond"
     },
     {
+      "titulo": "V",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/v_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/v_2026.png",
+      "url": ""
+    },
+    {
       "titulo": "Perror (Match)",
       "categoria": "Skins",
       "anio": 2026,
@@ -1175,6 +1193,37 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Drift (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Drift007_",
+      "fecha": "",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-navidad_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "V (Navidad)",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/v-navidad_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/v-navidad_2025.png",
+      "url": ""
+    },
+    {
       "titulo": "Perror (Navidad)",
       "categoria": "Skins",
       "anio": 2025,
@@ -1527,6 +1576,19 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Drift (Navidad)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Drift007_",
+      "fecha": "",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-navidad_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-navidad_2024.png",
+      "url": ""
+    },
+    {
       "titulo": "Leavyh (BB)",
       "categoria": "Skins",
       "anio": 2024,
@@ -1571,7 +1633,12 @@ window.SITE = {
       "anio": 2024,
       "persona": "TearsFromV",
       "fecha": "2024-10-17",
-      "redesPersona": [],
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
       "skin": "assets/skins/v-bb_2024.png",
       "destacado": false,
       "descripcion": "",
@@ -1579,16 +1646,60 @@ window.SITE = {
       "url": ""
     },
     {
-      "titulo": "Dave (Nucle)",
+      "titulo": "Drift (Traje)",
       "categoria": "Skins",
       "anio": 2024,
       "persona": "Drift007_",
-      "fecha": "2024-06-29",
+      "fecha": "2024-04-20",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-traje_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-traje_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Dave (Nucle v2)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Drift007_",
+      "fecha": "",
       "redesPersona": [],
       "skin": "assets/skins/dave-nucle_2024.png",
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/dave-nucle_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Dave (Nucle)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Drift007_",
+      "fecha": "",
+      "redesPersona": [],
+      "skin": "assets/skins/dave-nucle_2024-2.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/dave-nucle_2024-2.png",
+      "url": ""
+    },
+    {
+      "titulo": "Vanille",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/vanille_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/vanille_2024.png",
       "url": ""
     },
     {
@@ -1638,6 +1749,37 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/lukah_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "Drift (Match)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "Drift007_",
+      "fecha": "",
+      "redesPersona": [],
+      "skin": "assets/skins/drift-match_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/drift-match_2024.png",
+      "url": ""
+    },
+    {
+      "titulo": "V (Match)",
+      "categoria": "Skins",
+      "anio": 2024,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/v-match_2024.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/v-match_2024.png",
       "url": ""
     },
     {

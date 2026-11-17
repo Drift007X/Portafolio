@@ -5,8 +5,9 @@
 //  está, prueba con patrones (números, fechas, etc.). También
 //  traduce lo que se agrega después (galería, visor, etc.).
 //
-//  Para traducir un texto nuevo: agregá una línea en DICT con
-//  "texto en español": "text in English".
+//  Para traducir un texto nuevo: usá Portafolio Manager (pantalla
+//  Traducciones), que lo guarda en data/traducciones.js. También
+//  podés agregar una línea en DICT: "texto en español": "text in English".
 //  Lo que tenga la clase "notranslate" no se traduce nunca.
 // ─────────────────────────────────────────────────────────────
 (function () {
@@ -140,6 +141,13 @@
     'Copiar usuario:': 'Copy username:',
     '¡Usuario copiado! Pegalo en Discord para agregarme.': 'Username copied! Paste it in Discord to add me.'
   };
+
+  // Traducciones agregadas desde Portafolio Manager (data/traducciones.js).
+  // Si un texto está en los dos lados, gana el de la app.
+  var EXTRA = window.TRADUCCIONES || {};
+  for (var k in EXTRA) {
+    if (Object.prototype.hasOwnProperty.call(EXTRA, k) && EXTRA[k]) DICT[k] = EXTRA[k];
+  }
 
   var MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
   var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
