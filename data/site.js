@@ -712,24 +712,6 @@ window.SITE = {
       "curseforge": "https://www.curseforge.com/minecraft/texture-packs/rose-diamond"
     },
     {
-      "titulo": "V",
-      "categoria": "Skins",
-      "anio": 2026,
-      "persona": "TearsFromV",
-      "fecha": "",
-      "redesPersona": [
-        {
-          "nombre": "Twitter",
-          "url": "https://x.com/TearsFromV"
-        }
-      ],
-      "skin": "assets/skins/v_2026.png",
-      "destacado": false,
-      "descripcion": "",
-      "descarga": "assets/skins/v_2026.png",
-      "url": ""
-    },
-    {
       "titulo": "Perror (Match)",
       "categoria": "Skins",
       "anio": 2026,
@@ -763,6 +745,42 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/rose-match_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Velvet",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/velvet_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/velvet_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Velvet (Traje Heroe)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/velvet-traje-heroe_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/velvet-traje-heroe_2026.png",
       "url": ""
     },
     {
@@ -928,6 +946,42 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Meliin (Pijama)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Meliinlive",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Meliinlive"
+        }
+      ],
+      "skin": "assets/skins/meliin-pijama_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/meliin-pijama_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Meliin (Heroe)",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Meliinlive",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/Meliinlive"
+        }
+      ],
+      "skin": "assets/skins/meliin-heroe_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/meliin-heroe_2026.png",
+      "url": ""
+    },
+    {
       "titulo": "Mortexia",
       "categoria": "Skins",
       "anio": 2026,
@@ -964,6 +1018,32 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/jiunn_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Jeremy",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "JeremyZyon",
+      "fecha": "2026-01-03",
+      "redesPersona": [],
+      "skin": "assets/skins/jeremy_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/jeremy_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "Fuanfe",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "Fuanfe17",
+      "fecha": "2026-03-08",
+      "redesPersona": [],
+      "skin": "assets/skins/fuanfe_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/fuanfe_2026.png",
       "url": ""
     },
     {
@@ -1159,6 +1239,24 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/frann_2026.png",
+      "url": ""
+    },
+    {
+      "titulo": "V",
+      "categoria": "Skins",
+      "anio": 2026,
+      "persona": "TearsFromV",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/TearsFromV"
+        }
+      ],
+      "skin": "assets/skins/v_2026.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/v_2026.png",
       "url": ""
     },
     {
@@ -1358,6 +1456,32 @@ window.SITE = {
       "url": ""
     },
     {
+      "titulo": "Erik",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Erikelpapu",
+      "fecha": "2025-11-29",
+      "redesPersona": [],
+      "skin": "assets/skins/erik_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/erik_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Potato",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "PotatoKreisi",
+      "fecha": "2025-10-10",
+      "redesPersona": [],
+      "skin": "assets/skins/potato_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/potato_2025.png",
+      "url": ""
+    },
+    {
       "titulo": "Lukah (Antiguo)",
       "categoria": "Skins",
       "anio": 2025,
@@ -1458,6 +1582,24 @@ window.SITE = {
       "destacado": false,
       "descripcion": "",
       "descarga": "assets/skins/trabajo_2025.png",
+      "url": ""
+    },
+    {
+      "titulo": "Santi",
+      "categoria": "Skins",
+      "anio": 2025,
+      "persona": "Santiibuxi",
+      "fecha": "",
+      "redesPersona": [
+        {
+          "nombre": "Twitter",
+          "url": "https://x.com/santiibuxi"
+        }
+      ],
+      "skin": "assets/skins/santi_2025.png",
+      "destacado": false,
+      "descripcion": "",
+      "descarga": "assets/skins/santi_2025.png",
       "url": ""
     },
     {
